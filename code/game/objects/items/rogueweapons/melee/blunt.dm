@@ -16,9 +16,10 @@
 	blade_class = BCLASS_SMASH
 	attack_verb = list("smashes")
 	hitsound = list('sound/combat/hits/blunt/metalblunt (1).ogg', 'sound/combat/hits/blunt/metalblunt (2).ogg', 'sound/combat/hits/blunt/metalblunt (3).ogg')
-	penfactor = 80
-	damfactor = 1.1
-	swingdelay = 10
+	penfactor = 60
+	damfactor = 1
+	swingdelay = 20
+	recovery = 30
 	icon_state = "insmash"
 	item_d_type = "blunt"
 
@@ -290,7 +291,7 @@
 
 /obj/item/rogueweapon/mace/goden
 	force = 15
-	force_wielded = 30
+	force_wielded = 28
 	possible_item_intents = list(/datum/intent/mace/strike)
 	gripped_intents = list(/datum/intent/mace/strike, /datum/intent/mace/smash, /datum/intent/mace/rangedthrust)
 	name = "Goedendag"
@@ -331,7 +332,7 @@
 	desc = "Good morning, sire."
 	icon_state = "polemace"
 	force = 15
-	force_wielded = 35
+	force_wielded = 25
 	smeltresult = /obj/item/ingot/steel
 	smelt_bar_num = 2
 
@@ -345,7 +346,7 @@
 	max_integrity = 250
 	dropshrink = 0.75
 	force = 24
-	force_wielded = 35
+	force_wielded = 28
 	slot_flags = ITEM_SLOT_BACK //Looks better on back
 
 /obj/item/rogueweapon/mace/spiked
