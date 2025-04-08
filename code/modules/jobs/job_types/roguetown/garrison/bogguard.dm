@@ -52,7 +52,7 @@ Also given some non-combat skills that a peasent would have, just to support the
 		H.mind.adjust_skillrank(/datum/skill/combat/swords, 1, TRUE)
 		H.mind.adjust_skillrank(/datum/skill/combat/polearms, 3, TRUE)
 		H.mind.adjust_skillrank(/datum/skill/combat/knives, 2, TRUE)
-		H.mind.adjust_skillrank(/datum/skill/misc/athletics, 4, TRUE)
+		H.mind.adjust_skillrank(/datum/skill/misc/athletics, 3, TRUE)
 		H.mind.adjust_skillrank(/datum/skill/misc/climbing, 4, TRUE)
 		H.mind.adjust_skillrank(/datum/skill/misc/sneaking, 4, TRUE)
 		H.mind.adjust_skillrank(/datum/skill/misc/swimming, 4, TRUE)// Environmental advantages are key to setting a tone and actual place for the Warden's skill set
@@ -65,8 +65,6 @@ Also given some non-combat skills that a peasent would have, just to support the
 		H.mind.adjust_skillrank(/datum/skill/labor/farming, 2, TRUE)		//Peasent levy, so some skill
 		H.change_stat("strength", 1)
 		H.change_stat("perception", 2)
-		H.change_stat("constitution", 1)
-		H.change_stat("endurance", 2)
 		H.change_stat("speed", 1)
 		H.verbs |= /mob/proc/haltyell
 	ADD_TRAIT(H, TRAIT_DODGEEXPERT, TRAIT_GENERIC)
